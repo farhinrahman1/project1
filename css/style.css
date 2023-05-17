@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root{
+    --main-bg-color: rgb(16, 116, 155);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: var(--main-bg-color);
+    border: 25px solid rgb(16, 116, 155);;
+    font-family: 'Lato', sans-serif;
+}
+main{
+    background-color: silver;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.logo{
+    width: 300px;
+    align-items: center;
+}
+.logo img{
+    width: 300px;
+    padding: 0 100px;
+}
+nav ul{
+    width: 100%;
+    /* height: 300px; */
+    justify-content: center; 
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 25px;
+    align-items: center;   
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black;
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 450px;
+    height: 35px;
+    border-radius: 4px;
+    margin: 0 25px 0 50px;
+    padding: 0 12px;
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+}
+.slider img{
+    margin: 0;
+    width: 100%;
+}
+.dress{
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+}
+.tshirts{
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+}
+/* .midi-items{ */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+/* } */
+.dress h2{
+    font-family: 'Lato', sans-serif;
+}
+.tshirts h2{
+    font-family: 'Lato', sans-serif;
+    width: 12px 0;
+    margin: 12px
+}
+.midi-items{
+    margin: 20px
+    /* width: 12vw; */
+    /* flex-direction: column; */
+}
+.t-items{
+    margin: 20px
+    /* width: 12vw; */
+    /* flex-direction: column; */
+}
+.midi-items img{
+    margin: 20px;
+}
+.t-items img{
+    margin: 20px;
+}
+.lines p{
+    /* margin: 8px; */
+    width: 230px;
+    font-family: 'Lato', sans-serif;
+}
+.lines2 p{
+    /* margin: 8px; */
+    width: 230px;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    min-height: calc(300vh - 55px - 15vh);
+}
+footer{
+    height: 15vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+    
